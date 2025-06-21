@@ -81,6 +81,7 @@ body {
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
 }
+.btn1,
 .btn {
   background-color: #18a178;
   color: #fff;
@@ -286,7 +287,48 @@ body {
   .feature-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  .back {
+    display: none;
+  }
+  .insights {
+    flex-direction: column;
+  }
+   .insights img {
+  width: 200px;
+  margin: 0 auto;
+  }
+  .btn1 {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: #18a178;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
 }
+  .insight h2 {
+    font-size: 2rem;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0 0 0 0;
+  }
+  .insight-text p{
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: -1rem 0 0 0;
+    text-align: center;
+  }
+  .iback {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-radius: 0rem 0rem 20rem 20rem;
+  margin: 0 2rem 0 2rem;
+  }
+}
+
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
@@ -302,7 +344,7 @@ body {
   right: 0;
   z-index: 999;
   text-align: center;
-}
+    }
 
   .nav-links.active {
     display: flex;
@@ -346,7 +388,7 @@ body {
     justify-content: space-between;
     padding: 0 0 0 0;
     justify-content: center;
-}
+    }
   .insight {
     margin: 5rem 0 0 0;
     flex-direction: column;
@@ -354,7 +396,7 @@ body {
   }
   .insights img {
   width: 200px;
-}
+    }
   .insight h2 {
     font-size: 1rem;
     padding: 1rem 1rem 0 1rem;
@@ -371,7 +413,7 @@ body {
   height: 38rem;
   border-radius: 0rem 0rem 20rem 20rem;
   margin: 0 2rem 0 2rem;
-}
+    }
   .footer{
     margin: 5rem 0 0 0;
   }
