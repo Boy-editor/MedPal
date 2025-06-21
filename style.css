@@ -1,0 +1,389 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0fdf7;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 100px;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+.btn-outline {
+  background-color: #18a178;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  border: 2px solid #18a178;
+  color: #18a178;
+  background-color: white;
+}
+
+.hamburger {
+  display: none;
+  font-size: 40px;
+  color: #f36a1b;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5rem 2rem 2rem 2rem;
+  background-color: #fff; 
+}
+
+.hero-content {
+  flex: 1 1 300px;
+  max-width: 600px;
+  padding: 1rem;
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+.btn {
+  background-color: #18a178;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero-image {
+  width: 100%;
+  max-width: 523px;
+  padding: 1rem;
+}
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* About Section */
+.about {
+  background-image: url('./assets/aboutus.png');
+  background-size: cover;
+  padding: 0 2rem 10rem 2rem;
+  background-color: #f4fffb;
+  text-align: center;
+}
+
+.about h2 {
+  background-color: #f36a1b;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 0 auto 50px auto;
+  max-width: 600px;
+  border-radius: 30px 30px 80px 80px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 1rem 3rem 6rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #f36a1b;
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 3rem;
+}
+
+.card {
+    background-color: #f36a1b;
+    border-radius: 0 40px 0 40px;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card i {
+  font-size: 2rem;
+  color: #e0fdf7;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #e0fdf7;
+  margin-bottom: 0.5rem;
+}
+
+.back {
+  background-color: white;
+  width: 76rem;
+  height: 36rem;
+  margin: -520px auto 0 auto;
+  border-radius: 10px;
+}
+
+.insight {
+    margin: 4rem 0 0 0;
+}
+
+.insights {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 9rem 2rem 4rem;
+}
+
+.insight-text {
+  flex: 1 1 300px;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.insights img {
+  width: 300px;
+}
+
+.insight-text p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0 3rem 0;
+}
+
+.insight h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2rem 0 0 5rem;
+    color: #f36a1b;
+    padding: 1rem 20rem 0 0;
+}
+
+.iback {
+  background-color: white;
+  width: 78rem;
+  height: 38rem;
+  border-radius: 0.5rem 20rem 20rem 0;
+  margin: 0 0 0 2rem;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #fff;
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+.footer-top {
+  background-color: #f36a1b;
+  border-bottom-left-radius: 100% 40px;
+  border-bottom-right-radius: 100% 40px;
+  padding: 2rem 0;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  text-align: left;
+}
+
+.footer-column h3 {
+  color: #f36a1b;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.footer-column a {
+  display: block;
+  color: #000;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.store-badge {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #f36a1b;
+  font-size: 1.3rem;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 1024px) {
+  .feature-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .nav-links {
+  display: none;
+  flex-direction: column;
+  width: 35%; /* take full width under nav */
+  background-color: #18a178;
+  position: absolute;
+  top: 65px; /* adjust based on nav height */
+  right: 0;
+  z-index: 999;
+  text-align: center;
+}
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 15px 20px;
+    color: #fff;
+    border-top: 1px solid #444;
+  }
+  .hamburger {
+    display: flex;
+    margin: -10px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .about p {
+    margin: 1rem 0 7rem 0;
+    font-size: 1rem;
+  }
+  .feature-cards {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+  .back {
+    display: none;
+  }
+  .insights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    justify-content: center;
+}
+  .insight {
+    margin: 5rem 0 0 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .insights img {
+  width: 200px;
+}
+  .insight h2 {
+    font-size: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0 0 0 0;
+  }
+  .insight-text p{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0 0 0;
+  }
+  .iback {
+  background-color: white;
+  width: 20rem;
+  height: 38rem;
+  border-radius: 0rem 0rem 20rem 20rem;
+  margin: 0 0 0 2rem;
+}
+  .footer{
+    margin: 5rem 0 0 0;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer-column {
+    text-align: center;
+  }
+  .store-badge {
+    width: 100%;
+    max-width: 180px;
+  }
+}

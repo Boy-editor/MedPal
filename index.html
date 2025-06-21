@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/medpal logo.png">
+  <title>MedPal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css" />
+<body>
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <img src="./assets/medpal logo.png" alt="medpal logo" class="logo">
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#" class="btn-outline">Get Started</a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="bi bi-list"></i>
+        </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Take Control of Your Health with MedPal</h1>
+      <p>In today’s fast-paced world, managing your health can be challenging. MedPal helps you stay informed and on top of your medication management.</p>
+      <a href="#" class="btn">Download our app</a>
+    </div>
+    <div class="hero-image">
+      <img src="./assets/clock.png" alt="Clock and pills">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        At MedPal, we believe that managing your health should be simple, accessible, and empowering. Our mission is to provide individuals with the tools they need to take control of their medication management and overall wellness.
+        Founded by a team of healthcare professionals and technology enthusiasts, MedPal was created to address the common challenges faced by patients in adhering to their medication regimens. We understand that juggling multiple prescriptions, appointments, and health information can be overwhelming. That’s why we developed a user-friendly app designed to streamline this process. 
+      </p>
+      <a href="#" class="btn">Download our app</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <i class="bi bi-card-checklist"></i>
+        <h3>Medication Tracking</h3>
+        <p>Easily manage your medications with reminders and detailed information at your fingertips.</p>
+      </div>
+      <div class="card">
+        <i class="bi bi-camera-video"></i>
+        <h3>Live Consultation</h3>
+        <p>Securing messages and video conference with Caregivers and healthcare providers</p>
+      </div>
+      <div class="card">
+        <i class="bi bi-alarm"></i>
+        <h3>Refill Reminders</h3>
+        <p> Helps notify when it's time to refill their prescriptions.</p>
+      </div>
+      <div class="card">
+        <i class="bi bi-book-half"></i>
+        <h3>Educational Resources and health tips</h3>
+        <p> Provides valuable health information and tips.</p>
+      </div>
+      <div class="card">
+        <i class="bi bi-person-hearts"></i>
+        <h3>Personalized Medication Plan and Instruction</h3>
+        <p> Create tailored medication plans based on individual health needs.</p>
+      </div>
+      <div class="card">
+        <i class="bi bi-smartwatch"></i>
+        <h3>Integration with wearable devices and health trackers</h3>
+        <p> Sync data from wearables (like fitness trackers) to monitor health metrics.</p>
+      </div>
+    </div>
+    <div class="back"></div>
+  </section>
+  
+  <section class="insight">
+    <div class="iback">
+      <h2>INSIGHTS : When Patients are Likely to miss a dose</h2>
+      <div class="insights">
+        <div class="insight-text">
+          <p>People tend to miss their doses because they don’t have apps to remind them of their pills. 
+            Sundays and Saturdays have actually reported to be most times people actually miss their doses. Medpal is here to help them manage and adhere to their prescription.</p>
+            <a href="#" class="btn">Download our app</a>
+        </div>
+        <img src="./assets/drugs.png" alt="drugs">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <img src="./assets/medpal logo.png" alt="MedPal Logo" class="footer-logo" />
+  </div>
+  <div class="footer-content">
+    <!-- Company -->
+    <div class="footer-column">
+      <h3>Company</h3>
+      <a href="#">About Us</a>
+      <a href="#">Explore our app</a>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <a href="#">Doctors/Caregivers appointment</a>
+      <a href="#">Support Question</a>
+      <a href="#">Partnership Opportunities</a>
+    </div>
+
+    <!-- Download -->
+    <div class="footer-column">
+      <h3>Download Medpal</h3>
+      <a href="#"><img src="./assets/playstore.png" alt="Get it on Google Play" class="store-badge" /></a>
+      <a href="#"><img src="./assets/appstore.png" alt="Download on App Store" class="store-badge" /></a>
+    </div>
+
+    <!-- Contact Icons -->
+    <div class="footer-column contact-info">
+      <p><i class="bi bi-geo-alt"></i> Abia State, Nigeria</p>
+      <p><i class="bi bi-telephone-fill"></i> 08045697687</p>
+      <p><i class="bi bi-envelope-at-fill"></i> support@medpal.com</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
