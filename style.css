@@ -367,10 +367,10 @@ body {
   }
   .iback {
   background-color: white;
-  width: 20rem;
+  width: auto;
   height: 38rem;
   border-radius: 0rem 0rem 20rem 20rem;
-  margin: 0 0 0 2rem;
+  margin: 0 2rem 0 2rem;
 }
   .footer{
     margin: 5rem 0 0 0;
